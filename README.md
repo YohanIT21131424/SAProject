@@ -1,10 +1,8 @@
 # ImmuniGuard Vaccine Management System
 
-ImmuniGuard is a OSGi Eclips plug-in designed to simplify the management of patient appointments, vaccine administration, and employee scheduling in healthcare facilities. With its user-friendly interface and comprehensive features, ImmuniGuard allows healthcare providers to streamline their workflows, reduce administrative burdens, and enhance patient care.
+ImmuniGuard is a Hospital Management System. The system consists of four main services. Employee Service manages all employee details. Employee details can only be managed by Admins of the system. Admins has the ability to add, update, view, delete, assign shifts and request leaves of employees from the system. The Patient Service manages all patient details. A patient can add and search appointments. They also can get appointment bills, view test reports and lab reports. The Vaccination Management System manages the vaccine details of the hospital. Vaccine Management System can be accessed only by Admins. Admins and add, update, view, delete and search vaccination details. Finally, the Lab Test Management System manages all lab details of the hospital. Lab Test Manage can be accessed only by the admins and they can add, update, view, delete and search lab tests. The software is developed using Java Language and OSGi Framework.
+The purpose of this application is to simplify the management of the employees and patients in a hospital. With its user-friendly interface and comprehensive features, ImmuniGuard allows healthcare providers to streamline their workflows, reduce administrative burdens, and enhance patient care.
 
-With ImmuniGuard, healthcare facilities can easily schedule patient appointments, manage vaccine inventory and administration, and track employee schedules and time off. The software also includes reporting and analytics features that enable providers to monitor their operations and identify areas for improvement.
-
-Overall, ImmuniGuard is a valuable tool for healthcare providers looking to optimize their operations and provide high-quality care to their patients.
 
 ## The system consists of three tiers:
 
@@ -20,7 +18,7 @@ Overall, ImmuniGuard is a valuable tool for healthcare providers looking to opti
 ## Features
 
 - Patient management: The system allows managing patient details and appointments.
-- Inventory management: The system manages vaccine details, stock, and equipment stocks.
+- Vaccine management: The system manages vaccine details, stock, and equipment stocks.
 - Employee management: The system manages Employees, asign shifts and take leave requests.
 - Appointment management: The system allows seeing patient appointments and approving appointments.
 
